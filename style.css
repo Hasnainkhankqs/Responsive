@@ -1,0 +1,81 @@
+html,body,.wrapper,article,aside,details,figcaption,figure,footer
+,header,hgroup,main,menu,nav,section,
+summary,ul,li,a{
+  margin: 0px;
+  padding:0px;
+font-family: sans-serif;
+  display: block;
+}
+ul{
+    text-align: center;
+    background-color:gray;
+}
+li{
+
+    display: inline-block;
+    list-style-type:none;
+    background-color:green;
+    margin: 0px 1%; 
+    /*error in above margin*/
+}
+li>.hiden-content{
+    display: none;
+}
+li>a{
+        padding:1.5em;
+        background-color:lightblue;
+        display: inline-block;
+        border:thin solid black;
+
+}
+.wrapper{
+    width:100%;
+    background-color:black;
+}
+.left-aside{
+    background-color:lightcoral;
+    float: left;
+    width:23.5%;
+    padding:0.5em;
+    display: inline-block;
+}
+article{
+    background-color:lightslategray;
+    float: left;
+    display: inline-block;
+    width:48.2%;
+        padding:0.5em;
+}
+.right-aside{
+    background-color:lightseagreen;
+    display: inline-block;
+    width:23%;
+    padding:0.5em;
+
+}
+footer{
+    background-color:darkolivegreen;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+.left-span{
+    width:50%;
+    float:left;
+    background-color:lightgoldenrodyellow;
+}
+.right-span{
+        width:50%;
+    float:right;
+    background-color:lightpink; 
+}
+.left-span a,.right-span a{
+    display: inline;
+    margin-left:5%;
+}
+span {
+    text-align:center;
+}
+p{
+    display: inline;
+}
